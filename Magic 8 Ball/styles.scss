@@ -1,0 +1,42 @@
+body  {
+    background-color: gray;
+}
+header {
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 58px;
+    text-align: center;
+
+}
+
+.EightBallContainer, .EightballButton {
+    display: flex;
+    justify-content: center;
+   }
+   .EightBallContainer{
+        padding: 5rem;
+   }
+.EightballButton button {
+
+    color: white;
+    width: 10%;
+    height: 3rem;
+    background-color: red;
+    border-color: gray;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+}
+
+.TextResponseBox {
+    text-emphasis: Bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-color: blue;
+    padding: 20px;
+    margin-left: 46.7rem; 
+    margin-right: 46.7rem;
+    transform: translate( 0, -20.5rem);
+    border-radius: 50%;
+    
+}
