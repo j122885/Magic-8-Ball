@@ -23,4 +23,22 @@ function myFunction() {
                                 break;
 
                         }
+                        
+
+}
+
+function imgShake() {   
+    
+    var element= document.getElementById("images");
+    element.classList.add ("images");
+    setTimeout(Removeclass, 3000);
+     
+
+}
+
+function Removeclass() {
+
+    var element= document.getElementById("images");
+    element.classList.remove ("images");
+
 }
