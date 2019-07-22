@@ -2,11 +2,12 @@ var a = "Yes";
 var b = "No" ;
 var c = "Maybe";
 var d = "Probably";
+var f = "The answer is inside you";
 
 
 function myFunction() {
 
-                        switch( Math.floor((Math.random() * 4) + 1) ) {
+                        switch( Math.floor((Math.random() * 5) + 1) ) {
                             case 1: 
                                 document.getElementById("response").innerHTML =  a;
                                 break;
@@ -21,6 +22,9 @@ function myFunction() {
                             case 4:
                                     document.getElementById("response").innerHTML =  d;
                                 break;
+                            case 5: 
+									document.getElementById("response").innerHTML =  f;
+								break;
 
                         }
                         
